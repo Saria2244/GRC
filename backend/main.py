@@ -1,6 +1,6 @@
-# backend/main.py
+# backend/main.py  
 
-from fastapi import FastAPI
+from fastapi import FastAPI 
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
 from app.api.routes import auth, standards
